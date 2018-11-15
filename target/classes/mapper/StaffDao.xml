@@ -1,0 +1,19 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN"-->
+        <!--"http://ibatis.apache.org/dtd/sql-map-2.dtd">-->
+<!--<sqlMap namespace="com.rena.wi.dao.StaffDao">-->
+
+    <!--<typeAlias alias="STAFF" type="com.rena.wi.domain.Staff"/>-->
+
+    <!--<resultMap class="STAFF" id="STAFF">-->
+        <!--<result property="id" column="ID" javaType="java.lang.String"/>-->
+        <!--<result property="username" column="USERNAME"/>-->
+        <!--<result property="password" column="PASSWORD"/>-->
+    <!--</resultMap>-->
+
+
+    <!--&lt;!&ndash; 根据员工ID 找查员工&ndash;&gt;-->
+    <!--<select id="checkLogin" parameterClass="com.rena.wi.domain.Staff" resultMap="STAFF">-->
+		<!--select * from STAFF AS t where t.staffname=#{staffname} AND t.password=#{password};-->
+	<!--</select>-->
+<!--</sqlMap>-->
